@@ -1,22 +1,27 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: Hack for Houston
+description: >- 
+  Hack For Houston is a club created to provide a framework to connect 
+  the computer science talent at Rice University with nonprofits in the 
+  greater Houston area.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://samanyougarg.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
-facebook: facebook
+facebook: hackforhouston
 twitter: twitter
-github:  github
+github:  kyranstar/hfhsite
 
 #Additional Pages
 about: about
+blog: blog
+leadership: leadership
+signup: signup
 contact: contact
-privacy-policy: privacy-policy
 
 
 permalink: /:title
@@ -38,11 +43,11 @@ plugins:
 # Settings for rake task
 safe: False
 lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
+username: kyranstar #github username
+repo: hfhsitelive #github repository
 branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
+relative_source: _site #source directory
+destination: _site #destination directory
 production_url:  https://samanyougarg.com/
 source_url:  https://github.com/samanyougarg/hanuman #source repository url
 
