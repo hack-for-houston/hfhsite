@@ -22,53 +22,6 @@ Push the contents of the destination folder (mentioned in _config.yml. eg - dest
 Now you just need to push the files. Travis will generate the HTML files and automatically push them to your gh-pages branch.
 This is the setup I am using.
 
-### 2. Ruby Gem Method
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "hanuman"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: hanuman
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install hanuman
-
-You'll also need to copy or create the _config.yml file just like in this repository. Similarly, you'll need to have a navigation.yml and author.yml in your _data directory.
-
-#### Deploying to Github Pages
-Run `bundle exec jekyll serve` inside your cloned repository. Push the contents of the resulting _site to your Github Pages repository.
-
-
-### 3. Jekyll Remote Theme
-1. Create or update your Gemfile with the following -
-
-```ruby
-source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-remote-theme"
-```
-
-2. Update the bundled gems using `bundle` command.
-
-3. Add `remote_theme: "hanuman"` to your `_config.yml`.
-
-4. Add `jekyll-remote-theme` to the plugins array of your `_config.yml` -
-
-```yaml
-plugins:
-  - jekyll-remote-theme
-```
-
 ## Usage
 
 ### _config.yml
