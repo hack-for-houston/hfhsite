@@ -8,7 +8,7 @@ cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/hfhsite/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+url: "https://hack-for-houston.github.io" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
@@ -17,8 +17,7 @@ twitter: twitter
 github:  kyranstar/hfhsite
 
 #Additional Pages
-about: about
-blog: blog
+portfolio: portfolio
 leadership: leadership
 signup: signup
 contact: contact

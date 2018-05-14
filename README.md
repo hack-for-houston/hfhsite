@@ -6,21 +6,19 @@ It is built using the open source [AMP Start framework](https://www.ampstart.com
 
 AMP stands for [Accelerated Mobile Pages](https://www.ampproject.org/), a Google-backed project designed as an open standard for any publisher to have pages load quickly on mobile devices.
 
+## Adding a page
+
+Lets say we are creating a page called xxx.
+- Create a markdown file in the root directory of the project with the name of the page as the name of the file. We create xxx.md.
+- Make sure, in the frontmatter section of this file, you set the permalink to the name of the page.
+- In _config.yml, add it under additional pages.
+- If you want to have it in the navigation bar, go to _data/navigations.yml, and add an entry with the name of the file.
+
+
 #### Deploying to Github Pages
 **Method 1**
 
-Push the contents of the destination folder (mentioned in _config.yml. eg - destination: ../hanuman-pages/) to the gh-pages branch(if project page) or master branch(if user page) of your repository.
-
-**Method 2**
-
-- Set up travis-ci for your fork.
-- Generate your secure token with the travis gem:
-  Run `gem install travis` on your terminal.
-- Grab the GH_TOKEN from https://github.com/settings/tokens
-- Then run `travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'`
-- Add the token to your .travis.yml file.
-Now you just need to push the files. Travis will generate the HTML files and automatically push them to your gh-pages branch.
-This is the setup I am using.
+Push the contents of _site/ to the gh-pages branch.
 
 ## Usage
 
