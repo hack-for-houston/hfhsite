@@ -48,8 +48,8 @@ repo: hfhsitelive #github repository
 branch: master #branch
 relative_source: _site #source directory
 destination: _site #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+production_url:  https://hack-for-houston.github.io/
+source_url:  https://github.com/hack-for-houston/hfhsite/ #source repository url
 
 exclude:
   - README.md
