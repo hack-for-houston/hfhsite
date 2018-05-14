@@ -3,10 +3,10 @@
   <channel>
     <title>Hack for Houston</title>
     <description>Hack For Houston is a club created to provide a framework to connect  the computer science talent at Rice University with nonprofits in the  greater Houston area.</description>
-    <link>http://localhost:4000/hfhsite//</link>
-    <atom:link href="http://localhost:4000/hfhsite//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 May 2018 16:58:31 -0700</pubDate>
-    <lastBuildDate>Sun, 13 May 2018 16:58:31 -0700</lastBuildDate>
+    <link>https://hack-for-houston.github.io/hfhsite//</link>
+    <atom:link href="https://hack-for-houston.github.io/hfhsite//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 13 May 2018 17:09:01 -0700</pubDate>
+    <lastBuildDate>Sun, 13 May 2018 17:09:01 -0700</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
     
       <item>
@@ -381,8 +381,8 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 &lt;/amp-youtube&gt;
 </description>
         <pubDate>Wed, 29 Nov 2017 20:00:00 -0800</pubDate>
-        <link>http://localhost:4000/hfhsite//style-guide</link>
-        <guid isPermaLink="true">http://localhost:4000/hfhsite//style-guide</guid>
+        <link>https://hack-for-houston.github.io/hfhsite//style-guide</link>
+        <guid isPermaLink="true">https://hack-for-houston.github.io/hfhsite//style-guide</guid>
         
         <category>guide</category>
         
@@ -399,8 +399,8 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Nov 2017 20:00:00 -0800</pubDate>
-        <link>http://localhost:4000/hfhsite//sample</link>
-        <guid isPermaLink="true">http://localhost:4000/hfhsite//sample</guid>
+        <link>https://hack-for-houston.github.io/hfhsite//sample</link>
+        <guid isPermaLink="true">https://hack-for-houston.github.io/hfhsite//sample</guid>
         
         <category>test</category>
         
@@ -439,8 +439,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 27 Nov 2017 20:00:00 -0800</pubDate>
-        <link>http://localhost:4000/hfhsite//code</link>
-        <guid isPermaLink="true">http://localhost:4000/hfhsite//code</guid>
+        <link>https://hack-for-houston.github.io/hfhsite//code</link>
+        <guid isPermaLink="true">https://hack-for-houston.github.io/hfhsite//code</guid>
         
         <category>code</category>
         
@@ -503,8 +503,8 @@ Taken by
 &lt;/amp-audio&gt;
 </description>
         <pubDate>Sun, 26 Nov 2017 20:00:00 -0800</pubDate>
-        <link>http://localhost:4000/hfhsite//media</link>
-        <guid isPermaLink="true">http://localhost:4000/hfhsite//media</guid>
+        <link>https://hack-for-houston.github.io/hfhsite//media</link>
+        <guid isPermaLink="true">https://hack-for-houston.github.io/hfhsite//media</guid>
         
         <category>media</category>
         
